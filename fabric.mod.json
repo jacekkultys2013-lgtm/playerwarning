@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "playerwarning",
+  "version": "${version}",
+  "name": "Player Warning",
+  "description": "Pokazuje czerwone ostrzeżenie, gdy w pobliżu jest gracz z więcej niż 35 sercami.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.playerwarning.WarningModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
